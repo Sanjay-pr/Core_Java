@@ -7,3 +7,5 @@ Working on variables
     1. variables
     2. Type casting and conversion promotion
     3. operators
+--Day 4
+    1. Ternary operator
