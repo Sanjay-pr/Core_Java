@@ -9,3 +9,5 @@ Working on variables
     3. operators
 --Day 4
     1. Ternary operator
+--Day 5
+    1. Switch case
