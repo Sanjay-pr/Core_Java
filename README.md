@@ -11,3 +11,4 @@ Working on variables
     1. Ternary operator
 --Day 5
     1. Switch case
+    2. while and Nested while
