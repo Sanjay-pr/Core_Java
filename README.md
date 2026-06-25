@@ -14,3 +14,4 @@ Working on variables
     2. while and Nested while
 --Day 6
     1. do while loop
+    2. for loop
