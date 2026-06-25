@@ -12,3 +12,5 @@ Working on variables
 --Day 5
     1. Switch case
     2. while and Nested while
+--Day 6
+    1. do while loop
