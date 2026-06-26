@@ -15,3 +15,5 @@ Working on variables
 --Day 6
     1. do while loop
     2. for loop
+    3. patern 1
+    
