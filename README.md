@@ -18,3 +18,7 @@ Working on variables
 --Day 7
     1. patern 1
     2. Pattern 2
+--Day 8
+    1. Pascal's triangle hold****
+    2. Armstrong Number
+    3. 
