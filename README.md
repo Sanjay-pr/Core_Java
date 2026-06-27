@@ -21,4 +21,5 @@ Working on variables
 --Day 8
     1. Pascal's triangle hold****
     2. Armstrong Number
-    3. 
+    3. Floyd's Triangle
+    
