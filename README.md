@@ -22,4 +22,4 @@ Working on variables
     1. Pascal's triangle hold****
     2. Armstrong Number
     3. Floyd's Triangle
-    
+    4. Factorial of a number
