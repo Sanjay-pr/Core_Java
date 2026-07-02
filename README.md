@@ -23,3 +23,5 @@ Working on variables
     2. Armstrong Number
     3. Floyd's Triangle
     4. Factorial of a number
+--Day 9
+    1. Reverse of the number
