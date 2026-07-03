@@ -25,3 +25,6 @@ Working on variables
     4. Factorial of a number
 --Day 9
     1. Reverse of the number
+--Day 10
+    1. Oops 1 calculator using class and object
+    
