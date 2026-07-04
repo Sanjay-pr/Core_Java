@@ -27,4 +27,5 @@ Working on variables
     1. Reverse of the number
 --Day 10
     1. Oops 1 calculator using class and object
-    
+--Day 11
+    1. Oops 2 methods and static
