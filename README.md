@@ -29,3 +29,10 @@ Working on variables
     1. Oops 1 calculator using class and object
 --Day 11
     1. Oops 2 methods and static
+--Day 12
+    1. Arrays
+    2. Multi Dimensional
+    3. jagged Array
+    4. 3D Array
+    5. Array of objects
+    
