@@ -34,6 +34,38 @@ public class Arrays {
         {
             System.out.print(b[i]+ " ");
         }
+        System.out.println();
+        System.out.println("******Multi Dimesnional array");
+        MultiDimensional();
 
+    }
+
+    public static void MultiDimensional(){
+
+        int nums[][]= new int[3][4];
+
+
+        System.out.println("Printing the data after declartion of array");
+        for(int i=0;i<3;i++){
+            for(int j=0;j<4;j++){
+                System.out.print(nums[i][j] + " ");
+            }
+            System.out.println();
+        }
+        System.out.println("assigned random value to the array");
+        for(int i=0;i<3;i++){
+            for(int j=0;j<4;j++){
+                nums[i][j]= (int) (Math.random()*10);
+            }
+        }
+
+        System.out.println("lets print new values");
+
+        for(int m[] : nums){
+            for(int n : m){
+                System.out.print(n+" ");
+            }
+            System.out.println();
+        }
     }
 }
