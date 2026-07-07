@@ -36,4 +36,5 @@ Working on variables
     4. 3D Array
     5. Array of objects
 --Day 13
-    1. 
+    1. String
+    2. Encapsulation
