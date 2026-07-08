@@ -38,3 +38,7 @@ Working on variables
 --Day 13
     1. String
     2. Encapsulation
+    3. Constructor and Static Variable
+--Day 14
+    1. Static Function and static block
+    

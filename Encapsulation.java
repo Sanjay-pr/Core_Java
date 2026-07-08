@@ -9,6 +9,12 @@ class Teacher{
         name="Sanjay";
         age=24;
         education="Graduate";
+        System.out.println("In Constructor");
+    }
+
+    static{
+        school="Holy Light Samuktala";
+        System.out.println("In static Block");
     }
 
     public Teacher(int age, String name, String education){         //parameterized Constructor
@@ -44,6 +50,16 @@ class Teacher{
 
     }
 
+    public static void show1(){
+        System.out.println("Displaying School Name from Static Method: "+school);
+    }
+
+    //in static method we cannot use non static variables so we need to pass the object reference
+    public static void show1(Teacher obj){
+        System.out.println(school);
+        System.out.println(obj.name+ " : " + obj.age+ " : " + obj.education);
+    }
+
 
 }
 
@@ -70,6 +86,16 @@ public class Encapsulation {
         Teacher.school="Holy Light";
         System.out.println("Displaying static keyword");
         obj.Show();
+
+        // Teacher.show1();
+
+        System.out.println("\n*****Static Methods*****");
+        Teacher.show1();
+
+        //Static method with passing reference to the obj
+        Teacher.show1(obj1);
+
+        Teacher obj2= new Teacher();
 
     }
 }
