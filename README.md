@@ -41,4 +41,5 @@ Working on variables
     3. Constructor and Static Variable
 --Day 14
     1. Static Function and static block
-    
+--Day 15
+    1. Inheritance

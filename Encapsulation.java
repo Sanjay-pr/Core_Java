@@ -17,6 +17,8 @@ class Teacher{
         System.out.println("In static Block");
     }
 
+    
+
     public Teacher(int age, String name, String education){         //parameterized Constructor
         this.age=age;
         this.education=education;
@@ -59,12 +61,18 @@ class Teacher{
         System.out.println(school);
         System.out.println(obj.name+ " : " + obj.age+ " : " + obj.education);
     }
+    
+    
+    
+    
 
 
 }
 
 public class Encapsulation {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws ClassNotFoundException {
+
+        
         Teacher obj = new Teacher();
         System.out.println("Default Constructor Output");
         System.out.println(obj.getName() + " : " + obj.getAge() + " : " + obj.getEducation());
@@ -95,7 +103,13 @@ public class Encapsulation {
         //Static method with passing reference to the obj
         Teacher.show1(obj1);
 
-        Teacher obj2= new Teacher();
+        
+
+        //Teacher obj2= new Teacher();
+        //Teacher obj3= new Teacher();
+        System.out.println(Teacher.school);
+        //System.out.println(obj3.school);
+        Class.forName("Teacher");
 
     }
 }
