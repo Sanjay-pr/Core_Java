@@ -1,3 +1,4 @@
+
 class Abc{
     String penColor;    //Instance Variable
     public static void playMusic(){                     //this method can be called without using object
@@ -29,6 +30,9 @@ class Abc{
 
 public class Oops2 {
     public static void main(String[] args) {
+
+
+
         int x=10;
         Abc.playMusic();
         Abc obj = new Abc();
