@@ -26,7 +26,7 @@ class Scientific extends AdvCalculator{
         //we can not override the show method cause it is deined as final method in parent class.
     // }
 
-    public void subtracr(int a, int b){
+    public void subtract(int a, int b){
         System.out.println(b-a);
     }
 }
