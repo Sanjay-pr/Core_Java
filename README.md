@@ -53,5 +53,8 @@ Working on variables
         a. Dynamic Method Dispatch (Method OverRiding)
         b. Compile Time Polymorphism(Method Overloading)
     2. Final keyword(Variable, Method, Class)
---Day 18 05/07/2024
+--Day 18 15/07/2024
     1. Object Class introduction
+--Day 19 21/07/2024
+    1. Upcasting & Downcasting
+    2. 

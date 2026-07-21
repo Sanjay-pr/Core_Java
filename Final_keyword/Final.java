@@ -19,6 +19,9 @@ class AdvCalculator{
     public void subtract(int a , int b){
         System.out.println(a-b);
     }
+    public void mul(int a, int b){
+        System.out.println(a*b);
+    }
 }
 
 class Scientific extends AdvCalculator{
@@ -28,6 +31,9 @@ class Scientific extends AdvCalculator{
 
     public void subtract(int a, int b){
         System.out.println(b-a);
+    }
+    public void addition(int a, int b){
+        System.out.println(a+b);
     }
 }
 
@@ -50,6 +56,25 @@ public class Final {
         adv = new Scientific();
         adv.show();
         adv.subtract(85, 15);
+
+
+        //Downcasting and Upcasting
+
+        //UpCasting
+        //in the below object creation we created object of sub-class(Scientiific) but refernce of super class
+        AdvCalculator obj1= new Scientific();
+        System.out.print("Multiply from Upcasting: ");
+        //with obj1 we cannot access addition function which is in subclass
+        obj1.mul(10, 5);
+
+        //Downcasting
+        //here we are casting superclass refernce to subclass 
+        //from obj2 we can access the function of sub class as well as super class since the refernce has been changed to subclass
+        Scientific obj2= (Scientific) obj1;
+
+        System.out.print("additiion from downcasting: ");
+        obj2.addition(5, 10);
+
 
     }
     
