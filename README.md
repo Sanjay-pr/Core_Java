@@ -57,4 +57,4 @@ Working on variables
     1. Object Class introduction
 --Day 19 21/07/2024
     1. Upcasting & Downcasting
-    2. 
+    2. Wrapper class
