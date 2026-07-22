@@ -5,7 +5,7 @@ public class Wrapper1 {
         int n= 10;
 
         //the below line will throw and error cause striked line means depreciated
-        Integer num = new Integer(52);
+        Integer num = 52;
 
         System.out.println(num);
         num = n;        //auto-boxing here we convert the primitive into object 
