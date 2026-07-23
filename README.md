@@ -62,4 +62,6 @@ Working on variables
     1. Abstract Keywords
 --Day 21 23/07/2026
     1. Inner Class
+    2. Anonymous Class
+    3. Interface
     
