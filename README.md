@@ -59,4 +59,7 @@ Working on variables
     1. Upcasting & Downcasting
     2. Wrapper class
 --Day 20 22/07/2026
-    1. Abstract Keyworda
+    1. Abstract Keywords
+--Day 21 23/07/2026
+    1. Inner Class
+    
