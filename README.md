@@ -64,4 +64,5 @@ Working on variables
     1. Inner Class
     2. Anonymous Class
     3. Interface
-    
+-- Day 22 28/07/2026
+    1. enum Phase 1
