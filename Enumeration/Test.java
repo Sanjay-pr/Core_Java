@@ -2,6 +2,31 @@ package Enumeration;
 enum Days{
     SUNDAY,MONDAY,TUESDAY,WEDNESDAY,THURSDAY,FRIDAY,SATURDAY
 }
+enum Laptops{
+    Macbook(2000), Travelmate(1800), XPS(2100), Surface;
+    private int price;
+
+    //default constructor
+    private Laptops(){
+        price=500;
+    }
+
+    //parameterized constructor so that we can assign price for the laptops
+    private Laptops(int price){
+        this.price= price;
+    }
+
+    public int getPrice() {
+        return price;
+    }
+
+    public void setPrice(int price) {
+        this.price = price;
+    }
+    
+
+}
+
 
 class Calendar{
     public void printAllDays(){
@@ -11,7 +36,6 @@ class Calendar{
             System.out.println(d + " "+ d.ordinal());
         }
     }
-
 
     public void printToday(int n){
         Days all[]= Days.values();
@@ -69,6 +93,8 @@ class Calendar{
         }
     }
 }
+
+
 public class Test {
     public static void main(String[] args) {
         Days all[] = Days.values();
@@ -81,6 +107,12 @@ public class Test {
         c.printWorkingHours(d);
         c.printAssignedTeams(d);
 
-        
+        //Laptops enum being used
+        Laptops lapt= Laptops.Macbook;
+        System.out.println(lapt + " : "+lapt.getPrice());
+
+        for(Laptops lap : Laptops.values()){
+            System.out.println(lap + ": "+ lap.getPrice());
+        }
     }
 }

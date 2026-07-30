@@ -66,3 +66,6 @@ Working on variables
     3. Interface
 -- Day 22 28/07/2026
     1. enum Phase 1
+-- Day 23 30/07/2026
+    1. enum phase 2
+    2. 
