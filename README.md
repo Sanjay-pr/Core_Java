@@ -74,4 +74,4 @@ Working on variables
     1. Functional Interface
     2. Lambda Expression
     3. Exception handling
-    4. 
+    4. Throw and Throws
