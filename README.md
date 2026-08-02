@@ -68,4 +68,7 @@ Working on variables
     1. enum Phase 1
 -- Day 23 30/07/2026
     1. enum phase 2
-    2. 
+--Day 24 31/07/2026
+    1. Annotations
+--Day 25 02/08/2026
+    
