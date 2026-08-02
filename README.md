@@ -73,3 +73,5 @@ Working on variables
 --Day 25 02/08/2026
     1. Functional Interface
     2. Lambda Expression
+    3. Exception handling
+    4. 
