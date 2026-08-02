@@ -97,7 +97,7 @@ class Calendar{
 
 public class Test {
     public static void main(String[] args) {
-        Days all[] = Days.values();
+        // Days all[] = Days.values();
         Days d= Days.WEDNESDAY;
         System.out.println(d);
 

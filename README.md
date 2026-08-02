@@ -71,4 +71,5 @@ Working on variables
 --Day 24 31/07/2026
     1. Annotations
 --Day 25 02/08/2026
-    
+    1. Functional Interface
+    2. Lambda Expression

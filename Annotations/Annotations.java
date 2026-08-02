@@ -1,7 +1,7 @@
 package Annotations;
 
 //Deprecated means that soon this is going to be removed or there is and updated class available
-@Deprecated
+// @Deprecated
 class A{
     private String name="Sanjay";
     
