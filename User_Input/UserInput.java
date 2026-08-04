@@ -25,7 +25,7 @@ public class UserInput{
         System.out.println("Enter the second number");;
         n= sc.nextInt();
         System.out.println(n);
-        // sc.close();
+        sc.close();
         // br.close();
 
 
@@ -33,13 +33,13 @@ public class UserInput{
         System.out.println("Enter the Number");
         BufferedReader bf =null ;
         try{
-            br= new BufferedReader(new InputStreamReader(System.in));
+            bf= new BufferedReader(new InputStreamReader(System.in));
             n= Integer.parseInt(br.readLine());
             System.out.println(n);;
         }
         // finally is used for closing the resources
         finally{
-            br.close();
+            bf.close();
         }
 
             //we can shorten the above statments by declaring inside try parenthesis

@@ -17,6 +17,7 @@ public class ExceptionHandle {
             d=num[2];
             d=str.length();
             System.out.println(d);
+            System.out.println(result);
         } 
         catch (ArithmeticException e) 
         {
