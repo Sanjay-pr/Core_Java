@@ -79,3 +79,9 @@ Working on variables
     1.Taking input from console/user
 --Day 27 04/08/2026
     1. Threads
+--Day 28 09/08/2026
+    1. Multithreading
+    2. Thread Priority
+    3. Thread creation without exteding Thread class 
+    4. Thread creation with Lambds Expression
+    5. Thread with mutation
