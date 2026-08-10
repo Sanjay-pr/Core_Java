@@ -85,3 +85,5 @@ Working on variables
     3. Thread creation without exteding Thread class 
     4. Thread creation with Lambds Expression
     5. Thread with mutation
+-- Day 29 10/08/2026
+    1. 
