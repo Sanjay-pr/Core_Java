@@ -86,4 +86,7 @@ Working on variables
     4. Thread creation with Lambds Expression
     5. Thread with mutation
 -- Day 29 10/08/2026
-    1. 
+    1. Collection List
+-- Day 30 11/08/2026
+    1. Collection Set
+    2. Colletion Map

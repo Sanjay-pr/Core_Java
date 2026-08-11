@@ -36,7 +36,11 @@ public class Test {
         num.add(7965);
         num.add(788);
         num.add(8);
-        num.add(7);
+        num.add(778);
+        num.add(72554);
+        num.add(7545);
+        num.add(725454);
+        num.add(75458);
         
         System.out.println();
         System.out.println("Printing num List");
@@ -54,9 +58,7 @@ public class Test {
 
         System.out.println("Index of 8 is: "+num.indexOf(8));
         System.out.println("Does num contains 7965: "+num.contains(7965));
-
-
-        
+                
     }
     
 }
