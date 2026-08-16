@@ -94,3 +94,9 @@ Working on variables
     1. Sorting in Collection
 --Day 32 14/08/2026
     1. Sorting in Collection
+--Day 33 15/08/2026
+    1. Stream API
+--Day 34 16/08/2026
+    1. Stream API few functions
+-- Day 35 17/08/2026
+    1. Parallel Stream API
