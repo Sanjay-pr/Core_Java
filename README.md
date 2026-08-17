@@ -100,3 +100,7 @@ Working on variables
     1. Stream API few functions
 -- Day 35 17/08/2026
     1. Parallel Stream API
+    2. Optional Class
+    3. Reference Method
+    4. Constructor Reference
+    5. 
