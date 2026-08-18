@@ -103,4 +103,5 @@ Working on variables
     2. Optional Class
     3. Reference Method
     4. Constructor Reference
-    5. 
+    5. Local Variable Type Inference
+    6. 
