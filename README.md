@@ -104,4 +104,6 @@ Working on variables
     3. Reference Method
     4. Constructor Reference
     5. Local Variable Type Inference
-    6. 
+-- Day 36 18/08/2026
+    1. Sealed class
+    2. 
