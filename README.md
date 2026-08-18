@@ -106,4 +106,4 @@ Working on variables
     5. Local Variable Type Inference
 -- Day 36 18/08/2026
     1. Sealed class
-    2. 
+    2. Record class
